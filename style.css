@@ -1,3 +1,11 @@
+*{
+  font-family: 'Poppins', sans-serif;
+
+}
+.images{
+  filter: brightness(50%);
+  height:550px;
+}
 .text-align-center{
     margin-bottom: 255px;
     position: relative;
@@ -5,11 +13,11 @@
 }
 .img-text{
     position: absolute;
- 
     left: 50%;
      top: 50%;  
     transform: translate(-50%,-50%);
     width: 50%;
-    height: 50%;
+    height:65%;
+  
 
 }
