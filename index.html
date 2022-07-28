@@ -14,7 +14,7 @@
   <body>
    <header class="container">
     <!-- =======================navbar-start====================== -->
-    <nav class="navbar navbar-expand-lg bg-light mb-5 backg">
+    <nav class="navbar fixed-top navbar-expand-lg bg-light mb-5 backg">
         <div class="container">
           <a class="navbar-brand" href="#">Americaninst</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -194,11 +194,29 @@
   <section class="container">
     <div class=" text-white bg-primary border border-1 border-dark d-flex text-align-center p-5 flex-md-column flex-lg-row register " style="min-width:500p;">
       <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <h5 class="card-title mb-3">Ready to join? </h5>
+        <p class="card-text">If you want to get all our updates then stay with us by registering.</p>
       </div>
       <div>
-        <a href="#" class="btn btn-light">Registration </a>
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-light fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">
+ Registresion
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-success" id="exampleModalLabel">Registresion- info...</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <span class="fw-bold text-dark">Wow! You have already registered.Please </span><a href="#">loging</a>
+      </div>
+    </div>
+  </div>
+</div>
       </div>
     </div>
   </section>
